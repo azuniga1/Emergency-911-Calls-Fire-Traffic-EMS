@@ -41,11 +41,13 @@ What are the top 5 zipcodes for 911 calls?
 ```python
 data['zip'].value_counts().head(5)
 ```
+![top 5 zipcodes](images/zip.PNG)
+
 What are the top 5 townships(twp) for 911 calls?
 ```python
 data['twp'].value_counts().head(5
 ```
-
+![top 5 townships](images/twp.PNG)
 
 
 
