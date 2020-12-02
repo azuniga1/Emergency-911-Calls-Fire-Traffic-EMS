@@ -13,7 +13,7 @@ contains the following fields:
 * e: String variable, Dummy variable (always 1)
 
 ## Technology Used 
-* Python 
+### Python Libraries 
   * pandas library
   * numpy Library
   * matplotlib
