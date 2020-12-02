@@ -43,6 +43,7 @@ What are the top 5 zipcodes for 911 calls?
 data['zip'].value_counts().head(5)
 ```
 ![top 5 zipcodes](images/zipcodes.PNG)
+
 What are the top 5 townships(twp) for 911 calls?
 ```python
 data['twp'].value_counts().head(5
@@ -67,7 +68,7 @@ and then used  seaborns countplot to visualize the most common reasons for a 911
 ```python
 sns.countplot(x='Reason', data=data)
 ```
-![Reasons for 911 call](images/911Reason.PNG)
+![Reasons for 911 call](images/reasons.PNG)
 
 
 
