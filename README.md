@@ -69,7 +69,7 @@ and then used  seaborns countplot to visualize the most common reasons for a 911
 sns.countplot(x='Reason', data=data)
 plt.savefig("images/reasons.png")
 ```
-![Reasons for 911 call](images/reasons.PNG)
+![Reasons for 911 call](images/reasons.png)
 
 
 
