@@ -36,14 +36,13 @@ data.info()
 ```
 ![dataframe info](images/datainfo.PNG)
 
-#### Basic Questions
+#### Questions
 
 What are the top 5 zipcodes for 911 calls?
 ```python
 data['zip'].value_counts().head(5)
 ```
 ![top 5 zipcodes](images/zipcodes.PNG)
-
 What are the top 5 townships(twp) for 911 calls?
 ```python
 data['twp'].value_counts().head(5
@@ -54,6 +53,21 @@ data['twp'].value_counts().head(5
 
 I used seaborn/matplotlib to visualize portions of the data
 
+#### Questions
+What are the most common reasons for a 911 call?
+
+In order to answer this question I used .apply() with a lambda exprssion to create a new column called "reason" that conatins the reason string from the titles column 
+
+```python
+data['Reason'] = data['title'].apply(lambda title: title.split(':')[0])
+```
+
+and then used  seaborns countplot to visualize the most common reasons for a 911 call.
+
+```python
+sns.countplot(x='Reason', data=data)
+```
+![Reasons for 911 call](images/911Reason.PNG)
 
 
 
