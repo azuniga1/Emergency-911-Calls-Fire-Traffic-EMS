@@ -25,5 +25,6 @@ I used pandas to read in the csv data set from Kaggle to create a dataframe and 
 
 ```python
 data = pd.read_csv('data/911.csv')
+data.head()
 ```
 
