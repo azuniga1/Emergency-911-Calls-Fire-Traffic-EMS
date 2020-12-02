@@ -52,7 +52,7 @@ data['twp'].value_counts().head(5
 
 ### Visualization
 
-I used seaborn to visualize portions of the data
+I used seaborn/matplotlib to visualize portions of the data
 
 
 
