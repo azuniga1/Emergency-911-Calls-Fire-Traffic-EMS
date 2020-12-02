@@ -28,3 +28,9 @@ data = pd.read_csv('data/911.csv')
 data.head()
 ```
 ![dataframe](images/dataframe.PNG)
+
+Check out the info() of the df
+```python
+data.info()
+```
+![dataframe info](images/datainfo.PNG)
