@@ -11,3 +11,20 @@ contains the following fields:
 * twp: String variable, Township
 * addr: String variable, Address
 * e: String variable, Dummy variable (always 1)
+
+## Technology Used 
+### Python Libraries 
+  * pandas library
+  * numpy Library
+  * matplotlib
+  * seaborn
+
+## Process
+
+I used pandas to read in the csv data set from Kaggle to create a dataframe and analyse the data
+
+```python
+data = pd.read_csv('data/911.csv')
+data.head()
+```
+![DataFrame](images/dataframe.png)
