@@ -35,7 +35,7 @@ data.info()
 ```
 ![dataframe info](images/datainfo.PNG)
 
-## Basic Questions
+### Basic Questions
 
 What are the top 5 zipcodes for 911 calls?
 ```python
@@ -48,6 +48,9 @@ What are the top 5 townships(twp) for 911 calls?
 data['twp'].value_counts().head(5
 ```
 ![top 5 townships](images/twp.PNG)
+
+I used seaborn to visualize portions of the data
+
 
 
 
