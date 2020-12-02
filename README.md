@@ -19,7 +19,8 @@ contains the following fields:
   * matplotlib
   * seaborn
 
-## Process
+## Process 
+### analysis
 
 I used pandas to read in the csv data set from Kaggle to create a dataframe and analyse the data
 
@@ -35,7 +36,7 @@ data.info()
 ```
 ![dataframe info](images/datainfo.PNG)
 
-### Basic Questions
+#### Basic Questions
 
 What are the top 5 zipcodes for 911 calls?
 ```python
@@ -48,6 +49,8 @@ What are the top 5 townships(twp) for 911 calls?
 data['twp'].value_counts().head(5
 ```
 ![top 5 townships](images/twp.PNG)
+
+### Visualization
 
 I used seaborn to visualize portions of the data
 
