@@ -14,4 +14,7 @@ contains the following fields:
 
 ## Technology Used 
 * Python 
-  * Pandas Library
+  * pandas library
+  * numpy Library
+  * matplotlib
+  * seaborn
