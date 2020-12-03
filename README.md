@@ -78,7 +78,7 @@ plt.savefig("images/reasons.png")
 
 Calls per day of week based of the Reason for the call
 
-``python
+```python
 sns.countplot(x='Day of Week', data=data, hue='Reason')
 ```
 ![calls per day of week](images/countplotday.png)
