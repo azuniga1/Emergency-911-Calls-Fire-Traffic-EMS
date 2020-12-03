@@ -36,7 +36,7 @@ data.info()
 ```
 ![dataframe info](images/datainfo.PNG)
 
-I needed to change the dtype of the Timestamp column to DateTime object using pd.to_datetime to make it easier to create plots using dates
+I needed to change the dtype of the timeStamp column to DateTime object using pd.to_datetime to make it easier to create plots using dates
 ```python
 data['timeStamp'] = pd.to_datetime(data['timeStamp'])
 ```
