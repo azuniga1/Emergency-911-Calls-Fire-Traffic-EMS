@@ -83,5 +83,11 @@ sns.countplot(x='Day of Week', data=data, hue='Reason')
 ```
 ![calls per day of week](images/countplotday.png)
 
+Calls per month based of the Reason for the call
+
+```python
+sns.countplot(x='Month', data=data, hue='Reason')
+```
+![calls per day of week](images/countplotmonth.png)
 
 
